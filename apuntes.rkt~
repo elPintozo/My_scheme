@@ -31,21 +31,3 @@
 * ; return #<procedure:*>
 / ; return #<procedure://>
 
-;;; Variable tipo list
-'(1 2 3 4 5 6 7)
-
-;; Funciones para las listas
-(car '(a b c)); return primer elemento
-(cdr '(a b c)); return todos menos el primer elemento
-(cons 'a '(b c));return agrega un elemento a la lista
-
-;;; Variable tipo procedure
-(define square
-  (lambda (n)
-    (* n n)
-    )
-  )
-
-
-
-
